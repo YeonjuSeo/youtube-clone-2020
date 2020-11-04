@@ -4,17 +4,21 @@
   "description": "Youtube Clone Coding",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js",
+    "start": "nodemon --exec babel-node index.js",
     "test": "Hello World"
   },
   "author": "YeonjuSeo",
   "license": "ISC",
   "dependencies": {
-    "express": "4.17.1"
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "helmet": "4.2.0",
+    "morgan": "1.10.0"
   },
   "devDependencies": {
     "@babel/core": "7.12.3",
     "@babel/node": "7.12.1",
-    "@babel/preset-env": "7.12.1"
+    "@babel/preset-env": "7.12.1",
+    "nodemon": "2.0.6"
   }
 }
